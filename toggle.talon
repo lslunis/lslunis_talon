@@ -1,1 +1,1 @@
-key(shift-alt-space): speech.toggle()
+key(shift-alt-space): user.toggle_microphone()
