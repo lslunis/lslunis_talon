@@ -1,0 +1,1 @@
+key(shift-alt-space): speech.toggle()
