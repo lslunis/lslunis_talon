@@ -2,8 +2,7 @@ from talon import actions, app
 
 
 def on_ready():
-    actions.mode.enable("command")
-    actions.mode.enable("dictation")
+    actions.sound.set_microphone("None")
 
 
 app.register("ready", on_ready)
