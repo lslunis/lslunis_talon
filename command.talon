@@ -18,3 +18,5 @@ wipe four: repeat(4): key(alt-backspace)
 wipe line: key(cmd-backspace)
 switch flow: key(alt-space)
 switch zoom: key(ctrl-r)
+choose model:
+    insert("/model")
