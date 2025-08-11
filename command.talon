@@ -1,7 +1,5 @@
 mode: command
 -
-settings():
-    key_wait = 0.1
 choose one: key(1)
 choose two: key(2)
 choose three: key(3)
@@ -14,11 +12,11 @@ choose nine: key(9)
 send that: key(enter)
 stop that: key(ctrl-c)
 wipe one: key(alt-backspace)
-wipe two: key(alt-backspace alt-backspace)
-wipe three: key(alt-backspace alt-backspace alt-backspace)
-wipe four: key(alt-backspace alt-backspace alt-backspace alt-backspace)
+wipe two: key(alt-backspace:2)
+wipe three: key(alt-backspace:3)
+wipe four: key(alt-backspace:4)
 wipe line: key(cmd-backspace)
-wipe all: key(escape escape)
+wipe all: key(escape:3)
 switch flow: key(alt-space)
 switch zoom: key(ctrl-r)
 choose model:
