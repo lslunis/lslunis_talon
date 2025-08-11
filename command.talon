@@ -16,6 +16,7 @@ wipe two: key(alt-backspace alt-backspace)
 wipe three: key(alt-backspace alt-backspace alt-backspace)
 wipe four: key(alt-backspace alt-backspace alt-backspace alt-backspace)
 wipe line: key(cmd-backspace)
+wipe all: key(escape escape)
 switch flow: key(alt-space)
 switch zoom: key(ctrl-r)
 choose model:
