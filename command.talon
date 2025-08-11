@@ -1,5 +1,7 @@
 mode: command
 -
+settings():
+    key_wait = 0.1
 choose one: key(1)
 choose two: key(2)
 choose three: key(3)
