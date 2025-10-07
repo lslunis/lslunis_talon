@@ -21,3 +21,5 @@ switch flow: key(alt-space)
 switch zoom: key(ctrl-r)
 choose model:
     insert("/model")
+page up: key(pageup)
+page down: key(pagedown)
